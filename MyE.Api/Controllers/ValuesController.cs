@@ -40,6 +40,7 @@ namespace MyE.Api.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            
         }
     }
 }
