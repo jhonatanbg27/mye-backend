@@ -1,0 +1,9 @@
+E:\patrones\MyE.Domain\bin\Debug\netstandard2.0\MyE.Domain.deps.json
+E:\patrones\MyE.Domain\bin\Debug\netstandard2.0\MyE.Domain.dll
+E:\patrones\MyE.Domain\bin\Debug\netstandard2.0\MyE.Domain.pdb
+E:\patrones\MyE.Domain\obj\Debug\netstandard2.0\MyE.Domain.csprojAssemblyReference.cache
+E:\patrones\MyE.Domain\obj\Debug\netstandard2.0\MyE.Domain.csproj.CoreCompileInputs.cache
+E:\patrones\MyE.Domain\obj\Debug\netstandard2.0\MyE.Domain.AssemblyInfoInputs.cache
+E:\patrones\MyE.Domain\obj\Debug\netstandard2.0\MyE.Domain.AssemblyInfo.cs
+E:\patrones\MyE.Domain\obj\Debug\netstandard2.0\MyE.Domain.dll
+E:\patrones\MyE.Domain\obj\Debug\netstandard2.0\MyE.Domain.pdb
