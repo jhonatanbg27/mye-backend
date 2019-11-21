@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace MyE.Domain
@@ -19,7 +18,5 @@ namespace MyE.Domain
         public Role Role { get; set; }
 
         /*public ICollection<Ingreso> ingresos{get;set;}*/
-    }
-}
     }
 }

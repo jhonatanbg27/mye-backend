@@ -12,3 +12,5 @@ E:\patrones\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.AssemblyInfo.cs
 E:\patrones\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.csproj.CopyComplete
 E:\patrones\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.dll
 E:\patrones\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.pdb
+F:\PATRONES WEB\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.dll
+F:\PATRONES WEB\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.pdb

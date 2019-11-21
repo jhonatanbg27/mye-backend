@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj": {}
+    "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {}
   },
   "projects": {
-    "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj": {
+    "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj",
+        "projectUniqueName": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj",
         "projectName": "MyE.Domain",
-        "projectPath": "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj",
-        "packagesPath": "C:\\Users\\Alumnos\\.nuget\\packages\\",
-        "outputPath": "E:\\patrones\\MyE.Domain\\obj\\",
+        "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj",
+        "packagesPath": "C:\\Users\\JHONATAN\\.nuget\\packages\\",
+        "outputPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alumnos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JHONATAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

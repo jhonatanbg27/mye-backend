@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\patrones\\MyE.Repository\\MyE.Repository.csproj": {}
+    "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj": {}
   },
   "projects": {
-    "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj": {
+    "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj",
+        "projectUniqueName": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj",
         "projectName": "MyE.Domain",
-        "projectPath": "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj",
-        "packagesPath": "C:\\Users\\Alumnos\\.nuget\\packages\\",
-        "outputPath": "E:\\patrones\\MyE.Domain\\obj\\",
+        "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj",
+        "packagesPath": "C:\\Users\\JHONATAN\\.nuget\\packages\\",
+        "outputPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alumnos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JHONATAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -54,20 +54,20 @@
         }
       }
     },
-    "E:\\patrones\\MyE.Repository\\MyE.Repository.csproj": {
+    "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\patrones\\MyE.Repository\\MyE.Repository.csproj",
+        "projectUniqueName": "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj",
         "projectName": "MyE.Repository",
-        "projectPath": "E:\\patrones\\MyE.Repository\\MyE.Repository.csproj",
-        "packagesPath": "C:\\Users\\Alumnos\\.nuget\\packages\\",
-        "outputPath": "E:\\patrones\\MyE.Repository\\obj\\",
+        "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj",
+        "packagesPath": "C:\\Users\\JHONATAN\\.nuget\\packages\\",
+        "outputPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alumnos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JHONATAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj": {
-                "projectPath": "E:\\patrones\\MyE.Domain\\MyE.Domain.csproj"
+              "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
+                "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj"
               }
             }
           }
@@ -93,6 +93,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

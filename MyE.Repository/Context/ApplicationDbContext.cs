@@ -1,5 +1,10 @@
 using MyE.Domain;
 using Microsoft.EntityFramewrokCore;
+using MyE.Domain.Domain;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Linq;
+using System;
 
 namespace MyE.Repository.Context
 {
@@ -7,22 +12,6 @@ namespace MyE.Repository.Context
     {
         //Esto va tener el nombre en mayuscula
         public DbSet<User> User {get;set;}
-        public DbSet<Role> Role {get;set;
-        }
-
-        public ApplicationDbContext(DbContextOptions options):base(options)
-        {
-
-        }
-          public override int SaveChanges()
-        {
-            AddTimestamps();
-            return base.SaveChanges();
-        }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-        }
-
+        public DbSet<Role> Role {get;set;}
     }
 }
