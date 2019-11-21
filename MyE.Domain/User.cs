@@ -6,7 +6,7 @@ namespace MyE.Domain
 {
     public class User
     {
-        public int IdUser { get; set; }
+        public int Id { get; set; }
         public int IdRole { get; set; }
         public string Name { get; set; }
         public string Tipodoc { get; set; }

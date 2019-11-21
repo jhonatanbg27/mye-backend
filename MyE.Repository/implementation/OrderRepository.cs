@@ -73,7 +73,6 @@ namespace MyE.Repository.Implementation
                 newOrder.Id = entity.Id;
                 newOrder.Priority = entity.Priority;
                 newOrder.Date = entity.Date;
-                newOrder.description = entity.description;
                 context.Update(newOrder);
                 context.SaveChanges();
             }
