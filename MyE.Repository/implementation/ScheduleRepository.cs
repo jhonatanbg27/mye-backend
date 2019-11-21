@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using MyE.Domain;
 
-namespace MyE.Repository.implementation
+namespace MyE.Repository.Implementation
 {
     public class ScheduleRepository : IScheduleRepository
     {
-        public bool Delete(int id)
+         public bool Delete(int id)
         {
             throw new System.NotImplementedException();
         }

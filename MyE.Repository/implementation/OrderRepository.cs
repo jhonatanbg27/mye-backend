@@ -1,33 +1,114 @@
 using System.Collections.Generic;
 using MyE.Domain;
+using MyE.Repository.Context;
+using System.Linq;
 
-namespace MyE.Repository.implementation
+namespace MyE.Repository.Implementation
 {
     public class OrderRepository : IOrderRepository
     {
-        public bool Delete(int id)
+        private ApplicationDbContext context;
+        public OrderRepository(ApplicationDbContext context)
         {
-            throw new System.NotImplementedException();
+            this.context = context;
+        }
+         public bool Delete(int id)
+        {
+            try
+            {
+                var result = new Order();
+                result = context.Orders.Single(x=> x.Id == id ); 
+                context.Remove(result);
+                context.SaveChanges();
+                return true;
+            }
+            catch(System.Exception)
+            {
+                throw;
+            }
         }
 
         public Order Get(int id)
         {
-            throw new System.NotImplementedException();
+            var result = new Order();
+            try {
+                result = context.Orders.Single(x =>x.Id == id);
+            }catch(System.Exception)
+            {
+                throw;
+            }
+            return result;
         }
 
         public IEnumerable<Order> GetAll()
         {
-            throw new System.NotImplementedException();
+            var result = new List<Order>();
+            try{
+                result = context.Orders.ToList();
+            }catch(System.Exception)
+            {
+                throw;
+            }
+            return result;
         }
 
         public bool Save(Order entity)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                context.Add(entity);
+                context.SaveChanges();
+            }
+            catch(System.Exception)
+            {
+                return false;
+            }
+            return true;
         }
 
         public bool Update(Order entity)
         {
-            throw new System.NotImplementedException();
+            try{
+                var newOrder = context.Orders.Single(x => x.Id == entity.Id);
+                newOrder.Id = entity.Id;
+                newOrder.Priority = entity.Priority;
+                newOrder.Date = entity.Date;
+                newOrder.description = entity.description;
+                context.Update(newOrder);
+                context.SaveChanges();
+            }
+            catch(System.Exception)
+            {
+                return true;
+            }
+            return false;
+        }
+
+       /* public IEnumerable<Order>  GetOrderByUser(int userId)     
+        {
+            try
+            {
+                var Orders = context.Orders.Where(x => x.UserId == userId);
+                return Orders;
+            }
+            catch (System.Exception)
+            {
+                return null;
+            }
+        }
+        */
+
+        public IEnumerable<Order> GetOrderByMedical(int medicalequipmentId)
+        {
+            try
+            {
+                var Orders = context.Orders.Where(x => x.MedicalEquipamentId == medicalequipmentId);
+                return Orders;
+            }
+            catch (System.Exception)
+            {
+                return null;
+            }
         }
     }
 }

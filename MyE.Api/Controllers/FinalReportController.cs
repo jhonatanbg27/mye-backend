@@ -58,6 +58,7 @@ namespace MyE.Api.Controllers
         {
             return Ok(
             finalReportService.Delete(id)
+            
             );
         }
     }

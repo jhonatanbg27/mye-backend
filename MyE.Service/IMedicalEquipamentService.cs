@@ -2,7 +2,7 @@ using MyE.Domain;
 
 namespace MyE.Service
 {
-    public interface IMedicalEquipamentService: ICrudService<MedicalEquipament>
+    public interface IMedicalEquipmentService: ICrudService<MedicalEquipment>
     {
         
     }

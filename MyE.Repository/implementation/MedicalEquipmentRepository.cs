@@ -5,10 +5,10 @@ using System.Linq;
 
 namespace MyE.Repository.Implementation
 {
-    public class MembershipRepository : IMembershipRepository
+    public class MedicalEquipmentRepository : IMedicalEquipmentRepository
     {
         private ApplicationDbContext context;
-        public MembershipRepository(ApplicationDbContext context)
+        public MedicalEquipmentRepository(ApplicationDbContext context)
         {
             this.context = context;
         }
@@ -16,8 +16,8 @@ namespace MyE.Repository.Implementation
         {
             try
             {
-                var result = new Membership();
-                result = context.Memberships.Single(x=> x.Id == id ); 
+                var result = new MedicalEquipment();
+                result = context.MedicalEquipments.Single(x=> x.Id == id ); 
                 context.Remove(result);
                 context.SaveChanges();
                 return true;
@@ -28,11 +28,11 @@ namespace MyE.Repository.Implementation
             }
         }
 
-        public Membership Get(int id)
+        public MedicalEquipment Get(int id)
         {
-             var result = new Membership();
+             var result = new MedicalEquipment();
             try {
-                result = context.Memberships.Single(x =>x.Id == id);
+                result = context.MedicalEquipments.Single(x =>x.Id == id);
             }catch(System.Exception)
             {
                 throw;
@@ -40,11 +40,11 @@ namespace MyE.Repository.Implementation
             return result;
         }
 
-        public IEnumerable<Membership> GetAll()
+        public IEnumerable<MedicalEquipment> GetAll()
         {
-            var result = new List<Membership>();
+            var result = new List<MedicalEquipment>();
             try{
-                result = context.Memberships.ToList();
+                result = context.MedicalEquipments.ToList();
             }catch(System.Exception)
             {
                 throw;
@@ -52,7 +52,7 @@ namespace MyE.Repository.Implementation
             return result;
         }
 
-        public bool Save(Membership entity)
+        public bool Save(MedicalEquipment entity)
         {
             try
             {
@@ -66,15 +66,15 @@ namespace MyE.Repository.Implementation
             return true;
         }
 
-        public bool Update(Membership entity)
+        public bool Update(MedicalEquipment entity)
         {
             try{
-                var newMembership = context.Memberships.Single(x => x.Id == entity.Id);
-                newMembership.Id = entity.Id;
-                newMembership.QuantityEngineers = entity.QuantityEngineers;
-                newMembership.Name = entity.Name;
-                newMembership.Price = entity.Price;
-                context.Update(newMembership);
+                var newMedicalEquipment = context.MedicalEquipments.Single(x => x.Id == entity.Id);
+                newMedicalEquipment.Id = entity.Id;
+                newMedicalEquipment.StateDescription = entity.StateDescription;
+                newMedicalEquipment.Brand = entity.Brand;
+                newMedicalEquipment.Name = entity.Name;
+                context.Update(newMedicalEquipment);
                 context.SaveChanges();
             }
             catch(System.Exception)
