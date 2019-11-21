@@ -5,29 +5,35 @@ namespace MyE.Service.implementation
 {
     public class RoleService : IRoleService
     {
-         public bool Delete(int id)
+        private IRoleService roleRepository;
+        public RoleService(IRoleService roleRepository)
         {
-            throw new System.NotImplementedException();
+            this.roleRepository = roleRepository;
         }
 
-        public Building Get(int id)
+         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+        this.roleRepository.Delete(id);
+        }
+
+        public Role Get(int id)
+        {
+            this.roleRepository.Get(id);
         }
 
         public IEnumerable<Role> GetAll()
         {
-            throw new System.NotImplementedException();
+           this.roleRepository.GetAll();
         }
 
         public bool Save(Role entity)
         {
-            throw new System.NotImplementedException();
+            this.roleRepository.Save(entity);
         }
 
         public bool Update(Role entity)
         {
-            throw new System.NotImplementedException();
+            this.roleRepository.Update(entity);
         }
     }
 }

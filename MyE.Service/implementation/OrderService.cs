@@ -5,29 +5,34 @@ namespace MyE.Service.implementation
 {
     public class OrderService : IOrderService
     {
+        private IOrderService orderRepository;
+        public OrderService(IOrderService orderRepository)
+        {
+            this.orderRepository = orderRepository;
+        }
          public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            this.orderRepository.Delete(id);
         }
 
-        public Building Get(int id)
+        public Order Get(int id)
         {
-            throw new System.NotImplementedException();
+            this.orderRepository.Get(id);
         }
 
         public IEnumerable<Order> GetAll()
         {
-            throw new System.NotImplementedException();
+            this.orderRepository.GetAll();
         }
 
         public bool Save(Order entity)
         {
-            throw new System.NotImplementedException();
+            this.orderRepository.Save(entity);
         }
 
         public bool Update(Order entity)
         {
-            throw new System.NotImplementedException();
+            this.orderRepository.Update(entity);
         }
     }
 }

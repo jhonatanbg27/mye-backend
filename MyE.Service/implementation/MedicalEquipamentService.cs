@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using MyE.Domain;
-
+//corregir beans primero
 namespace MyE.Service.implementation
 {
     public class MedicalEquipamentService : IMedicalEquipamentService

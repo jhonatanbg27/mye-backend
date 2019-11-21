@@ -18,3 +18,9 @@ F:\PATRONES WEB\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.csp
 F:\PATRONES WEB\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.csproj.CoreCompileInputs.cache
 F:\PATRONES WEB\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.AssemblyInfoInputs.cache
 F:\PATRONES WEB\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.dll
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.pdb
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Service\obj\Debug\netstandard2.0\MyE.Service.AssemblyInfo.cs

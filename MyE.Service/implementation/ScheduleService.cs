@@ -5,29 +5,34 @@ namespace MyE.Service.implementation
 {
     public class ScheduleService : IScheduleService
     {
+        private IScheduleService scheduleRepository;
+        public ScheduleService(IScheduleService scheduleRepository)
+        {
+            this.scheduleRepository = scheduleRepository;
+        }
          public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            this.scheduleRepository.Delete(id);
         }
 
-        public Building Get(int id)
+        public Schedule Get(int id)
         {
-            throw new System.NotImplementedException();
+            this.scheduleRepository.Get(id);
         }
 
         public IEnumerable<Schedule> GetAll()
         {
-            throw new System.NotImplementedException();
+           this.scheduleRepository.GetAll();
         }
 
         public bool Save(Schedule entity)
         {
-            throw new System.NotImplementedException();
+            this.scheduleRepository.Save(entity);
         }
 
         public bool Update(Schedule entity)
         {
-            throw new System.NotImplementedException();
+            this.scheduleRepository.Update(entity);
         }
     }
 }

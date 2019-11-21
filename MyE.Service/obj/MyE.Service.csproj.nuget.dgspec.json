@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PATRONES WEB\\mye-backend\\MyE.Service\\MyE.Service.csproj": {}
+    "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Service\\MyE.Service.csproj": {}
   },
   "projects": {
-    "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
+    "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Domain\\MyE.Domain.csproj",
         "projectName": "MyE.Domain",
-        "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj",
-        "packagesPath": "C:\\Users\\JHONATAN\\.nuget\\packages\\",
-        "outputPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Domain\\MyE.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\JHONATAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,32 +56,34 @@
         }
       }
     },
-    "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj": {
+    "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Repository\\MyE.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Repository\\MyE.Repository.csproj",
         "projectName": "MyE.Repository",
-        "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj",
-        "packagesPath": "C:\\Users\\JHONATAN\\.nuget\\packages\\",
-        "outputPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Repository\\MyE.Repository.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\JHONATAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
-                "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj"
+              "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Domain\\MyE.Domain.csproj"
               }
             }
           }
@@ -112,35 +116,37 @@
         }
       }
     },
-    "F:\\PATRONES WEB\\mye-backend\\MyE.Service\\MyE.Service.csproj": {
+    "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Service\\MyE.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PATRONES WEB\\mye-backend\\MyE.Service\\MyE.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Service\\MyE.Service.csproj",
         "projectName": "MyE.Service",
-        "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Service\\MyE.Service.csproj",
-        "packagesPath": "C:\\Users\\JHONATAN\\.nuget\\packages\\",
-        "outputPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Service\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Service\\MyE.Service.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\JHONATAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
-                "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Domain\\MyE.Domain.csproj"
+              "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Domain\\MyE.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Domain\\MyE.Domain.csproj"
               },
-              "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj": {
-                "projectPath": "F:\\PATRONES WEB\\mye-backend\\MyE.Repository\\MyE.Repository.csproj"
+              "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Repository\\MyE.Repository.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Desktop\\Git\\mye-backend\\MyE.Repository\\MyE.Repository.csproj"
               }
             }
           }

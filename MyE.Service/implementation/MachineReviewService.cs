@@ -5,29 +5,34 @@ namespace MyE.Service.implementation
 {
     public class MachineReviewService : IMachineReviewService
     {
+        private IMachineReviewService machineReviewRepository;
+        public MachineReviewService(IMachineReviewService machineReviewRepository)
+        {
+            this.machineReviewRepository = machineReviewRepository;
+        }
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            this.machineReviewRepository.Delete(id);
         }
 
-        public Building Get(int id)
+        public MachineReview Get(int id)
         {
-            throw new System.NotImplementedException();
+            this.machineReviewRepository.Get(id);
         }
 
         public IEnumerable<MachineReview> GetAll()
         {
-            throw new System.NotImplementedException();
+            this.machineReviewRepository.GetAll();
         }
 
         public bool Save(MachineReview entity)
         {
-            throw new System.NotImplementedException();
+            this.machineReviewRepository.Save(entity);
         }
 
         public bool Update(MachineReview entity)
         {
-            throw new System.NotImplementedException();
+            this.machineReviewRepository.Update(entity);
         }
     }
 }

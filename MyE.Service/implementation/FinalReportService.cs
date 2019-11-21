@@ -5,29 +5,34 @@ namespace MyE.Service.implementation
 {
     public class FinalReportService : IFinalReportService
     {
+        private IFinalReportService finalReportRepository;
+        public FinalReportService(IFinalReportService finalReportRepository)
+        {
+            this.finalReportRepository = finalReportRepository;
+        }
        public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            this.finalReportRepository.Delete(id);
         }
 
-        public Building Get(int id)
+        public FinalReport Get(int id)
         {
-            throw new System.NotImplementedException();
+            this.finalReportRepository.Get(id);
         }
 
         public IEnumerable<FinalReport> GetAll()
         {
-            throw new System.NotImplementedException();
+            this.finalReportRepository.GetAll();
         }
 
         public bool Save(FinalReport entity)
         {
-            throw new System.NotImplementedException();
+            this.finalReportRepository.Save(entity);
         }
 
         public bool Update(FinalReport entity)
         {
-            throw new System.NotImplementedException();
+            this.finalReportRepository.Update(entity);
         }
     }
 }

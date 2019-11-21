@@ -22,3 +22,15 @@ F:\PATRONES WEB\mye-backend\MyE.Repository\bin\Debug\netstandard2.0\MyE.Reposito
 F:\PATRONES WEB\mye-backend\MyE.Repository\bin\Debug\netstandard2.0\MyE.Domain.dll
 F:\PATRONES WEB\mye-backend\MyE.Repository\bin\Debug\netstandard2.0\MyE.Domain.pdb
 F:\PATRONES WEB\mye-backend\MyE.Repository\obj\Debug\netstandard2.0\MyE.Repository.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\obj\Debug\netstandard2.0\MyE.Repository.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\obj\Debug\netstandard2.0\MyE.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\obj\Debug\netstandard2.0\MyE.Repository.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\obj\Debug\netstandard2.0\MyE.Repository.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\obj\Debug\netstandard2.0\MyE.Repository.dll
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\obj\Debug\netstandard2.0\MyE.Repository.pdb
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\bin\Debug\netstandard2.0\MyE.Repository.deps.json
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\bin\Debug\netstandard2.0\MyE.Repository.dll
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\bin\Debug\netstandard2.0\MyE.Repository.pdb
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\bin\Debug\netstandard2.0\MyE.Domain.dll
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\bin\Debug\netstandard2.0\MyE.Domain.pdb
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Repository\obj\Debug\netstandard2.0\MyE.Repository.csproj.CopyComplete

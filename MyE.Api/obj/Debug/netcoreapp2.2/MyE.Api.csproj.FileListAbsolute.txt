@@ -21,3 +21,5 @@ E:\patrones\MyE.Api\obj\Debug\netcoreapp2.2\MyE.Api.dll
 E:\patrones\MyE.Api\obj\Debug\netcoreapp2.2\MyE.Api.pdb
 F:\PATRONES WEB\mye-backend\MyE.Api\obj\Debug\netcoreapp2.2\MyE.Api.dll
 F:\PATRONES WEB\mye-backend\MyE.Api\obj\Debug\netcoreapp2.2\MyE.Api.pdb
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Api\obj\Debug\netcoreapp2.2\MyE.Api.dll
+C:\Users\Administrador\Desktop\Git\mye-backend\MyE.Api\obj\Debug\netcoreapp2.2\MyE.Api.pdb

@@ -5,29 +5,34 @@ namespace MyE.Service.implementation
 {
     public class MembershipService : IMembershipService
     {
+        private IMembershipService membershipRepository;
+        public MembershipService(IMembershipService membershipRepository)
+        {
+            this.membershipRepository = membershipRepository;
+        }
          public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+           this.membershipRepository.Delete(id);
         }
 
-        public Building Get(int id)
+        public Membership Get(int id)
         {
-            throw new System.NotImplementedException();
+            this.membershipRepository.Get(id);
         }
 
         public IEnumerable<Membership> GetAll()
         {
-            throw new System.NotImplementedException();
+            this.membershipRepository.GetAll();
         }
 
         public bool Save(Membership entity)
         {
-            throw new System.NotImplementedException();
+           this.membershipRepository.Save(entity);
         }
 
         public bool Update(Membership entity)
         {
-            throw new System.NotImplementedException();
+           this.membershipRepository.Update(entity);
         }
     }
 }

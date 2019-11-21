@@ -1,33 +1,38 @@
 using System.Collections.Generic;
 using MyE.Domain;
-
+using MyE.Repository;
 namespace MyE.Service.implementation
 {
     public class UserService : IUserService
     {
+        private IUserRepository userRepository;
+        public UserService(IUserRepository userRepository)
+        {
+            this.userRepository = userRepository;
+        }
          public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            this.userRepository.Delete(id);
         }
 
-        public Building Get(int id)
+        public User Get(int id)
         {
-            throw new System.NotImplementedException();
+            this.userRepository.Get(id);
         }
 
         public IEnumerable<User> GetAll()
         {
-            throw new System.NotImplementedException();
+           this.userRepository.GetAll();
         }
 
         public bool Save(User entity)
         {
-            throw new System.NotImplementedException();
+           this.userRepository.Save(entity);
         }
 
         public bool Update(User entity)
         {
-            throw new System.NotImplementedException();
+            this.userRepository.Update(entity);
         }
     }
 }
